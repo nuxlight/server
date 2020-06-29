@@ -628,8 +628,6 @@ abstract class Common implements Storage, ILockingStorage, IWriteStreamStorage {
 			if ($result and $preserveMtime) {
 				$this->touch($targetInternalPath, $sourceStorage->filemtime($sourceInternalPath));
 			}
-			fclose($source);
-			fclose($target);
 
 			if (!$result) {
 				// delete partially written target file
