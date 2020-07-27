@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 /**
  * @copyright Copyright (c) 2020 Joas Schilling <coding@schilljs.com>
@@ -21,7 +22,6 @@ declare(strict_types=1);
  */
 
 namespace OC\Share20;
-
 
 use OCP\EventDispatcher\Event;
 use OCP\EventDispatcher\IEventListener;
