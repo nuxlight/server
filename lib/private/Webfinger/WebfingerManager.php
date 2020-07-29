@@ -67,6 +67,7 @@ class WebfingerManager implements IWebfingerManager {
 	 *
 	 * @throws WebfingerRequestException
 	 * @since 20.0.0
+	 * @noinspection PhpUnused
 	 */
 	public function manageRequest(IRequest $request): void {
 		$resource = $request->getParam('resource', '');

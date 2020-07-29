@@ -41,7 +41,7 @@ use Throwable;
 class WebfingerRequestException extends Exception {
 
 	/** @var int */
-	private $errorCode = 404;
+	private $errorCode;
 
 
 	/**

@@ -61,6 +61,7 @@ class WebfingerEvent extends Event {
 	/**
 	 * @return IWebfinger
 	 * @since 20.0.0
+	 * @noinspection PhpUnused
 	 */
 	public function getWebfinger(): IWebfinger {
 		return $this->webfinger;
